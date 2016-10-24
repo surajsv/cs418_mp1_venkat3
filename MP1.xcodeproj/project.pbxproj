@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		25A189A11C69D00800FBAB17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25A189A01C69D00800FBAB17 /* main.cpp */; };
+		25A189A81C69D01A00FBAB17 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A189A71C69D01A00FBAB17 /* OpenGL.framework */; };
+		25A189AA1C69D02000FBAB17 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A189A91C69D02000FBAB17 /* GLUT.framework */; };
+		25A189AC1C69D02600FBAB17 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A189AB1C69D02600FBAB17 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		25A1899D1C69D00800FBAB17 /* MP1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MP1; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A189A01C69D00800FBAB17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		25A189A71C69D01A00FBAB17 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		25A189A91C69D02000FBAB17 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		25A189AB1C69D02600FBAB17 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A189AC1C69D02600FBAB17 /* Cocoa.framework in Frameworks */,
+				25A189AA1C69D02000FBAB17 /* GLUT.framework in Frameworks */,
+				25A189A81C69D01A00FBAB17 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +50,9 @@
 		25A189941C69D00800FBAB17 = {
 			isa = PBXGroup;
 			children = (
+				25A189AB1C69D02600FBAB17 /* Cocoa.framework */,
+				25A189A91C69D02000FBAB17 /* GLUT.framework */,
+				25A189A71C69D01A00FBAB17 /* OpenGL.framework */,
 				25A1899F1C69D00800FBAB17 /* MP1 */,
 				25A1899E1C69D00800FBAB17 /* Products */,
 			);
